@@ -32,10 +32,11 @@ function HomeBanner() {
                     backgroundColor: 'rgb(11, 11, 73, 40%)',
                     padding: '3%'
                 }}>
-                    <h1 style={{color: "#FFFF", fontSize: '400%'}}>
+                    <h1 style={{color: "#FFFF", fontSize: '320%'}}>
                         Athen's Leading Real Estate Developer
                     </h1>
                     <p style={{color: "#FFFF", fontSize: '150%'}}>
+                    <br />
                     Hellenic Investment Fund (HIF) takes pride in its team of highly experienced professionals in financial investment, real estate development, construction, and international relations. With a commitment to professionalism and dedication, our organization is structured into key divisions: design and construction, project management, real estate leasing and management, and social relations development in Greece.
                     </p>
                 </div>

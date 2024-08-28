@@ -41,13 +41,13 @@ function HomeBanner() {
                 </div>
         </div>
         <div id="about" className='pt-5 pb-5'>
-            <h1 style={{fontSize: '350%', textAlign: 'center'}}>
+            <h1 style={{fontSize: '350%', textAlign: 'center', marginTop: '2%'}}>
                 About HIF
             </h1>
             <div>
-            <p className='pl-10' style={{fontSize: '150%'}}>At HIF, we have built over 62 apartments building across Athens.
+            <p className='pl-10 pr-8' style={{fontSize: '150%'}}>At HIF, we have built over 62 apartments building across Athens.
             Clients can choose from a wide variety of apartments we offer.</p>
-            <h1 className='pl-10' style={{fontSize: '250%'}}>
+            <h1 className='pl-10 pr-8' style={{fontSize: '250%'}}>
                 Our timelines:
             </h1>
             <div className="container lg:pt-5">
@@ -171,7 +171,7 @@ function HomeBanner() {
             </div>
         </div>
             </div>
-            <h1 className='pl-10' style={{fontSize: '250%'}}>
+            <h1 className='pl-10 pr-8' style={{fontSize: '250%'}}>
                 Why choose HIF as a partner?
             </h1>
             <p className='pl-10 pr-8' style={{fontSize: '150%'}}>At HIF, each project is carefully selected for its location, ensuring convenient transportation and placement in areas with optimal living amenities. HIF is committed to developing projects that offer the highest quality living environment for investors.

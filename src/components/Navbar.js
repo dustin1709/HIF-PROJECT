@@ -62,13 +62,13 @@ function Navbar() {
                         </li>
                         <li className='text-smallTextColor text-[26px] font-[600] hover:underline'>
                             {/* <a style={{color: "#042954"}} onClick={handleClick} href="">Real Estate Development</a> */}
-                            <Link to='/realestate'>Real Estate Development</Link>
+                            <Link style={{color: "#042954"}} to='/realestate'>Real Estate Development</Link>
                         </li>
                         <li className='text-smallTextColor text-[26px] font-[600] hover:underline'>
-                            <a style={{color: "#042954"}} onClick={handleClick} href="">Property Management Services</a>
+                            <Link style={{color: "#042954"}} to='/propertymanagement'>Property Management Services</Link>
                         </li>
                         <li className='text-smallTextColor text-[26px] font-[600] hover:underline'>
-                            <a style={{color: "#042954"}} onClick={handleClick} href="">Golden Visa Immigration</a>
+                            <Link style={{color: "#042954"}} to='/goldenvisa'>Golden Visa Immigration</Link>
                         </li>
                     </ul>
                 </div>

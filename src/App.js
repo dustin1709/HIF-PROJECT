@@ -8,6 +8,7 @@ import Footer from './section/Footer';
 import { Route, Routes } from 'react-router-dom';
 import RealEstate from './pages/RealEstate';
 import GoldenVisa from './pages/GoldenVisa';
+import PropertyManagement from './pages/PropertyManagement';
 
 function App() {
   useEffect(() => {
@@ -22,7 +23,7 @@ function App() {
       <Routes>
       <Route path="/" element={<HomeBanner />} />
       <Route path="/realestate" element={<RealEstate />} />
-
+      <Route path="/propertymanagement" element={<PropertyManagement />} />
       <Route path="/goldenvisa" element={<GoldenVisa />} />
       </Routes>
     </main>

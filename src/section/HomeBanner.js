@@ -1,6 +1,10 @@
 import React from "react";
 import { useState, useEffect, useRef } from "react";
 import backgroundImg from '../assets/images/background.png';
+import building from '../assets/images/buildings.png';
+import room from '../assets/images/room.png';
+import family from '../assets/images/family.png';
+import country from '../assets/images/country.png';
 import '../assets/sectioncss/HomeBanner.css';
 
 function HomeBanner() {
@@ -178,23 +182,27 @@ function HomeBanner() {
             <p className='pl-10 pr-8' style={{fontSize: '150%'}}>At HIF, each project is carefully selected for its location, ensuring convenient transportation and placement in areas with optimal living amenities. HIF is committed to developing projects that offer the highest quality living environment for investors.
             We are proud to be a trusted and quality property developer who can support your client's family in their new journey of owning and managing foreign properties.
             </p>
-            <ul className='pl-10 pb-5 pt-2 pr-8'>
+            <ul className='pl-10 pb-5 pt-2 pr-8 text-center'>
                     <li className="listEle hide">
+                        <div className="flex justify-center"><img src={building} alt='icon' style={{width: '3.5rem', paddingBottom: '0.5em'}} /></div>
                         <h1 className='text-3xl'>62 Apartment Buildings</h1>
                         <p>Each project is carefully selected for its location, ensuring convenient transportation and placement in areas with optimal living amenities. HIF is committed to developing projects that offer the highest quality living environment for investors.</p>
                     </li>
                     
                     <li className="listEle hide">
+                    <div className="flex justify-center"><img src={room} alt='icon' style={{width: '3.5rem', paddingBottom: '0.5em'}} /></div>
                         <h1 className='text-3xl'>892 Apartments</h1>
                         <p>The apartments are designed with modern aesthetics and high-quality amenities. HIF is committed to developing and constructing only top-tier properties, with the goal of providing an exceptional and comfortable living space for investors.</p>
                     </li>
                     
                     <li className="listEle hide">
+                    <div className="flex justify-center"><img src={family} alt='icon' style={{width: '3.5rem', paddingBottom: '0.5em'}} /></div>
                         <h1 className='text-3xl'>787 Families</h1>
                         <p>HIF's documentation is always detailed, clear, and transparent, making it easy for partners and investors to monitor and evaluate. The files are managed by a team of professional lawyers, ensuring that all necessary information for relevant parties is thoroughly provided.</p>
                     </li>
                     
                     <li className="listEle hide">
+                    <div className="flex justify-center"><img src={country} alt='icon' style={{width: '3.5rem', paddingBottom: '0.5em'}} /></div>
                         <h1 className='text-3xl'>7 countries</h1>
                         <p>HIF takes pride in its extensive international network, comprising partners from seven different countries. This global collaboration not only enhances our reputation but also expands our operational reach, creating new development opportunities and diversifying our investment portfolio.</p>
                     </li>

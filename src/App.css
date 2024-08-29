@@ -52,9 +52,7 @@ html {
 .mybar {
   display: none;
 }
-.x-button {
-  display: hidden;
-}
+
 .intro-div {
   width: 62%;
 }
@@ -88,12 +86,7 @@ html {
     line-height: 30px;
     justify-content: center;
     align-items: center;
-    padding: 2%;
-   }
-
-   .x-button {
-    display: block;
-    margin-left: 10%;
+    padding: 1%;
    }
 
    .intro-div {

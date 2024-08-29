@@ -5,6 +5,8 @@ import "aos/dist/aos.css";
 import Navbar from './components/Navbar';
 import HomeBanner from './section/HomeBanner';
 import Footer from './section/Footer';
+import { Route, Routes } from 'react-router-dom';
+import RealEstate from './pages/RealEstate';
 
 function App() {
   useEffect(() => {
@@ -16,7 +18,10 @@ function App() {
     <Navbar />
     <main>
       <div className='p-1'></div>
-      <HomeBanner />
+      <Routes>
+      <Route path="/" element={<HomeBanner />} />
+      <Route path="/realestate" element={<RealEstate />} />
+      </Routes>
     </main>
     <Footer />
     </>

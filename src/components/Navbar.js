@@ -1,12 +1,13 @@
 import React, {useRef, useEffect} from 'react';
 import { FaBars, FaWindowClose } from "react-icons/fa";
 import logoImg from '../assets/images/logo.png';
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 function Navbar() {
 
     const headerRef = useRef(null);
     const menuRef = useRef(null);
-    const btRef = useRef(null);
 
     const stickyHeaderFunc = () => {
         window.addEventListener('scroll', () => {
@@ -20,7 +21,6 @@ function Navbar() {
 
     useEffect(() => {
         stickyHeaderFunc();
-        btRef.current.classList.add('hidden');
         return window.removeEventListener('scroll', stickyHeaderFunc);
     }, []);
 
@@ -34,12 +34,10 @@ function Navbar() {
             top: location - 80,
             left: 0
         });
-        btRef.current.classList.toggle('hidden');
     };
 
     const toggleMenu = () => {
         menuRef.current.classList.toggle('show_menu');
-        btRef.current.classList.toggle('hidden');
     }
 
   return (
@@ -53,18 +51,18 @@ function Navbar() {
                 </div>
 
                 <div className="menu" ref={menuRef} onClick={toggleMenu}>
-                    <span ref={btRef} className='x-button text-4xl text-smallTextColor cursor-pointer'>
-                        <FaWindowClose />
-                    </span>
                     <ul className='flex gap-10 items-center'>
                         <li className='text-smallTextColor text-[26px] font-[600] hover:underline'>
-                            <a style={{color: "#042954"}} onClick={handleClick} href="#home">Home</a>
+                            {/* <a style={{color: "#042954"}} onClick={handleClick} href="#home">Home</a> */}
+                            <Link style={{color: "#042954"}} to='/'>Home</Link>
                         </li>
                         <li className='text-smallTextColor text-[26px] font-[600] hover:underline'>
-                            <a style={{color: "#042954"}} onClick={handleClick} href="#about">About us</a>
+                            {/* <a style={{color: "#042954"}} onClick={handleClick} href="#about">About us</a> */}
+                            <HashLink style={{color: "#042954"}} to='/#about'>About us</HashLink>
                         </li>
                         <li className='text-smallTextColor text-[26px] font-[600] hover:underline'>
-                            <a style={{color: "#042954"}} onClick={handleClick} href="">Real Estate Development</a>
+                            {/* <a style={{color: "#042954"}} onClick={handleClick} href="">Real Estate Development</a> */}
+                            <Link to='/realestate'>Real Estate Development</Link>
                         </li>
                         <li className='text-smallTextColor text-[26px] font-[600] hover:underline'>
                             <a style={{color: "#042954"}} onClick={handleClick} href="">Property Management Services</a>

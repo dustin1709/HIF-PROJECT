@@ -1,11 +1,30 @@
 import React from "react";
 import backgroundImg from '../assets/images/construction.jpg';
 import handshake from '../assets/images/code-of-conduct.png';
+import videoMov from '../assets/videos/property.MOV';
+import '../assets/sectioncss/RealEstate.css';
 
 function RealEstate() {
     return (
         <div>
-        <div style={{ 
+            <div className='hero'>
+                <video className="back-video" autoPlay loop muted playsInline>
+                    <source src={videoMov} type="video/mp4" />
+                </video>
+                <div className="intro-div ml-8 mr-8 p-10" style={{
+                    backgroundColor: 'rgb(245, 243, 242, 88%)',
+                    marginTop: '5%'
+                }}>
+                    <h1 style={{color: "black"}}>
+                        Your Trusted Real Estate Developer
+                    </h1>
+                    <p style={{color: "black"}}>
+                    <br />
+                    With a proven track record of successfully completing high-quality projects, HIF prioritizes transparency, integrity, and professionalism in all dealings, ensuring clear communication, timely project delivery, and adherence to budgets. With a strong focus on client satisfaction, HIF consistently delivers value by selecting prime locations, using top-notch materials, and maintaining strict quality control throughout the development process. HIF's commitment to ethical practices and long-term relationships makes it a dependable partner for investors and stakeholders alike.
+                    </p>
+                </div>
+            </div>
+        <div className="hero2" style={{ 
             backgroundImage: `url(${backgroundImg})`,
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
@@ -24,7 +43,7 @@ function RealEstate() {
                     </p>
             </div>
         </div>
-        <div className='p-7 mt-5 mb-5 ml-5 mr-3'>
+        <div className='underhero pl-7 pr-7 mt-5 mb-5 ml-5 mr-3'>
             <h1 style={{color: "black", fontSize: '200%', textAlign: 'center'}}>
                 - - Our commitment to B2B - -
             </h1>

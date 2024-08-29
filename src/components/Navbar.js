@@ -42,7 +42,7 @@ function Navbar() {
 
   return (
     <header
-    ref={headerRef} className='w-full h-[80px] leading-[80px] flex items-center pb-2 mt-1 pt-1'>
+    ref={headerRef} className='header w-full h-[80px] leading-[80px] flex items-center pt-1'>
         <div className='container'>
             <div className='flex items-center justify-between'>
                 <img src={logoImg} className='w-[165px] h-[73.8px] pt-2 pb-1' />

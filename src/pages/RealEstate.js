@@ -1,7 +1,7 @@
 import React from "react";
 import backgroundImg from '../assets/images/construction.jpg';
 import handshake from '../assets/images/code-of-conduct.png';
-import videoMov from '../assets/videos/property.MOV';
+//import videoMov from '../assets/videos/property.MOV';
 import '../assets/sectioncss/RealEstate.css';
 
 function RealEstate() {
@@ -9,7 +9,7 @@ function RealEstate() {
         <div>
             <div className='hero'>
                 <video className="back-video" autoPlay loop muted playsInline>
-                    <source src={videoMov} type="video/mp4" />
+                    <source src="https://hif-greece.s3.ap-northeast-1.amazonaws.com/property.MOV" type="video/mp4" />
                 </video>
                 <div className="intro-div ml-8 mr-8 p-10" style={{
                     backgroundColor: 'rgb(245, 243, 242, 88%)',

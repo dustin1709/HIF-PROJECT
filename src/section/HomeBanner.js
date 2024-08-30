@@ -207,6 +207,8 @@ function HomeBanner() {
                         <p>HIF takes pride in its extensive international network, comprising partners from seven different countries. This global collaboration not only enhances our reputation but also expands our operational reach, creating new development opportunities and diversifying our investment portfolio.</p>
                     </li>
                 </ul>
+            
+            <div className='p-5 clear-both'></div>
         </div>
         </>
     )

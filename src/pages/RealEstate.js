@@ -55,6 +55,7 @@ function RealEstate() {
             We firmly believe that the success of our projects is rooted in the strength of our partnerships. By working hand-in-hand with local agencies, we ensure that investors receive expert guidance tailored to the nuances of their respective markets. This collaborative approach not only protects our partners' business interests but also fosters trust and long-term cooperation. We are dedicated to supporting the growth and success of our partners while maintaining the highest standards of professionalism and integrity in every transaction.
             </p>
         </div>
+        <div className='p-5 clear-both'></div>
         </div>
     )
 }

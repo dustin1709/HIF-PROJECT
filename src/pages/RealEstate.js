@@ -11,7 +11,7 @@ function RealEstate() {
                 <video className="back-video" autoPlay loop muted playsInline>
                     <source src="https://hif-greece.s3.ap-northeast-1.amazonaws.com/property.MOV" type="video/mp4" />
                 </video>
-                <div className="intro-div ml-8 mr-8 p-10" style={{
+                <div className="ml-8 mr-8 p-10" style={{
                     backgroundColor: 'rgb(245, 243, 242, 88%)',
                     marginTop: '5%'
                 }}>

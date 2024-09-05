@@ -45,6 +45,13 @@ function Project() {
                     </h1>
             </div>
             </div>
+            <div className="p-8">
+                <h1 className="text-4xl">About our projects</h1>
+                <p className="text-2xl">
+                At HIF, we specialize in premium real estate projects, handpicked for their unbeatable locations and designed with renters in mind. Whether you're looking for easy access to public transportation, vibrant local communities, or proximity to key amenities, our properties offer unparalleled convenience. Each project is thoughtfully developed to provide an effortless rental experience, ensuring tenants enjoy both comfort and accessibility. Invest in a space where location meets lifestyle, making renting simpler, faster, and more enjoyable. Secure your future today with HIF—your gateway to prime living.
+                </p>
+            </div>
+            <h1 className="pl-8 pt-8 text-4xl">Our Notable Projects</h1>
             <div className="slider-container w-8/9 m-auto">
             <Slider {...settings}>
                 {

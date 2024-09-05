@@ -45,7 +45,7 @@ function Navbar() {
     ref={headerRef} className='header w-full h-[80px] leading-[80px] flex items-center pt-1'>
         <div className='container'>
             <div className='flex items-center justify-between'>
-                <img src={logoImg} className='w-[165px] h-[73.8px] pt-2 pb-1' />
+                <Link to='/'><img src={logoImg} className='w-[165px] h-[73.8px] pt-2 pb-1' /></Link>
                 <div className='flex items-center gap-[10px]'>
                     
                 </div>
@@ -63,6 +63,9 @@ function Navbar() {
                         <li className='text-smallTextColor text-[26px] font-[600] hover:underline'>
                             {/* <a style={{color: "#042954"}} onClick={handleClick} href="">Real Estate Development</a> */}
                             <Link style={{color: "#042954"}} to='/realestate'>Real Estate Development</Link>
+                        </li>
+                        <li className='text-smallTextColor text-[26px] font-[600] hover:underline'>
+                            <Link style={{color: "#042954"}} to='/projects'>Projects</Link>
                         </li>
                         <li className='text-smallTextColor text-[26px] font-[600] hover:underline'>
                             <Link style={{color: "#042954"}} to='/propertymanagement'>Property Management Services</Link>

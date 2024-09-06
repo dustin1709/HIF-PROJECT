@@ -56,16 +56,16 @@ function Project() {
             <Slider {...settings}>
                 {
                     Listings.map((property) => {return (
-                        <div key={property.id} className='p-5 flex items-center justify-center'>
-                            <div className='flex justify-center rounded-t-xl' style={{backgroundColor: '#e0e0eb'}}>
-                                <img src={property.image} className="h-[300px]" />
+                        <div key={property.id} className='pl-3 pr-3 pb-3 pt-2 flex items-center justify-center'>
+                            <div className='flex justify-center rounded-t-xl pt-2' style={{backgroundColor: '#e0e0eb'}}>
+                                <img src={property.image} className="h-[270px]" style={{borderRadius: '7%'}} />
                             </div>
                             <div className="p-2 text-center" style={{backgroundColor: '#e0e0eb'}}>
                                 <h2 className="text-3xl">{property.name}</h2>
                             </div>
                             <div style={{backgroundColor: '#e0e0eb'}} className="rounded-b-xl">
-                                <h2 className="pb-3 pt-3 pl-5 text-2xl">{property.location}</h2>
-                                <ul className="pb-3 pt-3 pl-5 text-xl">
+                                <h2 className="pt-3 pl-5 text-2xl">{property.location}</h2>
+                                <ul className="pb-3 pt-2 pl-5 text-xl">
                                     <li>{property.sp1}</li>
                                     <li>{property.sp2}</li>
                                     <li>{property.sp3}</li>

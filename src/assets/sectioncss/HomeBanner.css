@@ -1,3 +1,10 @@
+.listItem {
+    display: inline-block;
+    margin-top: 1%;
+    padding: 1em;
+    width: 20em;
+}
+
 .listEle {
     display: inline-block;
     margin-top: 1%;
@@ -9,7 +16,13 @@
 .hide {
     filter: blur(0px);
     transform: translateX(-100%);
-    transition: all 1s;
+    transition: all 5s;
+}
+
+.hideRight {
+    filter: blur(0px);
+    transform: translateX(-100%);
+    transition: all 2s;
 }
 
 .show {
@@ -43,6 +56,48 @@
     position: relative;
 }
 
+.coloredItems {
+    display: inline-block;
+    padding: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.25em;
+    margin-right: 50%;
+    margin-left: 3%;
+    margin-right: 5%;
+    width: 90%;
+    background-color: #09366a;
+    color: #ffff;
+}
+.coloredItems2 {
+    display: inline-block;
+    padding: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.25em;
+    margin-right: 50%;
+    margin-left: 3%;
+    margin-right: 5%;
+    width: 90%;
+    background-color: #edeeef;
+}
+
+.descImg {
+    width: 100%;
+    top: 0;
+    right: 0;
+    position: relative;
+}
+
+.fig-left {
+    width: 80%;
+    float: left;
+    padding: 1.5%;
+}
+
+.fig-right {
+    width: 20%;
+    float: right;
+}
+
 @media only screen and (max-width: 1258px) {
     .listEle {
         width: 25em;
@@ -55,5 +110,15 @@
         padding-left: 4.5%;
         clear: both;
         width: 100%;
+    }
+    .fig-left {
+        width: 70%;
+        float: left;
+        padding: 0.5%;
+    }
+    
+    .fig-right {
+        width: 30%;
+        float: right;
     }
 }

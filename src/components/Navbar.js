@@ -26,7 +26,6 @@ function Navbar() {
 
     const handleClick = e => {
         e.preventDefault();
-
         const targetAttr = e.target.getAttribute('href')
         const location = document.querySelector(targetAttr).offsetTop;
 

@@ -19,6 +19,7 @@ body {
   left: 2% !important;
   z-index: 1;
 }
+
 .slick-next {
   right: 2% !important;
   z-index: 1;
@@ -50,6 +51,7 @@ html {
 .homebanner {
   width: 100%;
   height: 42em;
+  display:table;
 }
 
 .footerbanner {
@@ -68,7 +70,9 @@ html {
 }
 
 .intro-div {
-  width: 62%;
+  display:table-cell;
+  vertical-align:middle;
+  text-align: center;
 }
 
 .sbox {
@@ -95,7 +99,7 @@ html {
     z-index: 100;
     display: none;
   }
-   .menu ul {
+  .menu ul {
     width: 80%;
     height: 100%;
     position: absolute;
@@ -108,15 +112,15 @@ html {
     justify-content: center;
     align-items: center;
     padding: 1%;
-   }
+  }
 
-   .intro-div {
+  .intro-div {
     width: 100%;
-   }
+  }
 
-   .show_menu {
+  .show_menu {
     display: block;
-   }
+  }
 }
 
 @media only screen and (max-width: 780px) {

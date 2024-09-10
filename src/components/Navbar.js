@@ -44,7 +44,7 @@ function Navbar() {
     ref={headerRef} className='header w-full h-[80px] leading-[80px] flex items-center pt-1'>
         <div className='container'>
             <div className='flex items-center justify-between'>
-                <Link to='/'><img src={logoImg} className='w-[165px] h-[73.8px] pt-2 pb-1' /></Link>
+                <Link to='/'><img src={logoImg} className='w-[124px] h-[55.9px] pt-2 pb-1' /></Link>
                 <div className='flex items-center gap-[10px]'>
                     
                 </div>

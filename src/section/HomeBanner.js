@@ -61,7 +61,7 @@ function HomeBanner() {
                     ]}
                     wrapper="h1"
                     speed={10}
-                    style={{color: "#FFFF", fontSize: '520%', textShadow: '2px 3px 2px black', fontFamily: "Times"}}
+                    style={{color: "#FFFF", fontSize: '350%', textShadow: '2px 3px 2px black', fontFamily: "Times"}}
                     repeat={Infinity}
                 />
                 {/* <h1 style={{color: "#FFFF", fontSize: '520%', textShadow: '1px 1px 2px black', fontFamily: "'Lucida Handwriting', Cursive, monospace"}}>

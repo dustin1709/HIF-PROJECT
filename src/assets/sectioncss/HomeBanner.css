@@ -16,7 +16,7 @@
 .hide {
     filter: blur(0px);
     transform: translateX(-100%);
-    transition: all 5s;
+    transition: all 3s;
 }
 
 .hideRight {

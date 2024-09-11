@@ -9,23 +9,17 @@ function Project() {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 3,
+        slidesToShow: 2,
         slidesToScroll: 1,
         responsive: [
             {
                 breakpoint: 1024,
                 settings: {
-                  slidesToShow: 3
-                }
-              },
-              {
-                breakpoint: 750,
-                settings: {
                   slidesToShow: 2
                 }
               },
               {
-                breakpoint: 555,
+                breakpoint: 930,
                 settings: {
                   slidesToShow: 1
                 }
@@ -36,21 +30,22 @@ function Project() {
     return (
         <div>
             <div>
-            <div className="intro-div" style={{
+            <div style={{
                     backgroundColor: 'rgb(245, 243, 242, 88%)',
                     padding: '3%'
                 }}>
                     <h1 style={{color: "black", fontSize: '320%'}}>
-                        Our Projects
+                        HIF Projects
                     </h1>
             </div>
             </div>
             <div className="p-8">
                 <h1 className="text-4xl">About our projects</h1>
                 <p className="text-2xl">
-                At HIF, we specialize in premium real estate projects, handpicked for their unbeatable locations and designed with renters in mind. Whether you're looking for easy access to public transportation, vibrant local communities, or proximity to key amenities, our properties offer unparalleled convenience. Each project is thoughtfully developed to provide an effortless rental experience, ensuring tenants enjoy both comfort and accessibility. Invest in a space where location meets lifestyle, making renting simpler, faster, and more enjoyable. Secure your future today with HIF—your gateway to prime living.
+                    At HIF, we specialize in premium real estate projects, handpicked for their unbeatable locations and designed with renters in mind. Whether you're looking for easy access to public transportation, vibrant local communities, or proximity to key amenities, our properties offer unparalleled convenience. Each project is thoughtfully developed to provide an effortless rental experience, ensuring tenants enjoy both comfort and accessibility. Invest in a space where location meets lifestyle, making renting simpler, faster, and more enjoyable. Secure your future today with HIF—your gateway to prime living.
                 </p>
             </div>
+            
             <h1 className="pl-8 pt-8 text-4xl">Our Notable Projects</h1>
             <div className="slider-container w-8/9 m-auto">
             <Slider {...settings}>
@@ -63,8 +58,9 @@ function Project() {
                             <div className="p-2 text-center" style={{backgroundColor: '#e0e0eb'}}>
                                 <h2 className="text-3xl">{property.name}</h2>
                             </div>
-                            <div style={{backgroundColor: '#e0e0eb'}} className="rounded-b-xl">
+                            <div style={{backgroundColor: '#e0e0eb'}} className="rounded-b-xl h-[480px]">
                                 <h2 className="pt-3 pl-5 text-2xl">{property.location}</h2>
+                                <p className="pb-3 pt-2 pl-5 pr-3 text-xl">{property.desc}</p>
                                 <ul className="pb-3 pt-2 pl-5 text-xl">
                                     <li>{property.sp1}</li>
                                     <li>{property.sp2}</li>

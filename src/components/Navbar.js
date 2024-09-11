@@ -41,10 +41,10 @@ function Navbar() {
 
   return (
     <header
-    ref={headerRef} className='header w-full h-[80px] leading-[80px] flex items-center pt-1'>
+    ref={headerRef} className='header w-full h-[80px] leading-[80px] flex items-center'>
         <div className='container'>
             <div className='flex items-center justify-between'>
-                <Link to='/'><img src={logoImg} className='w-[124px] h-[55.9px] pt-2 pb-1' /></Link>
+                <Link to='/'><img src={logoImg} className='w-[124px] h-[55.9px] pt-1 pb-1' /></Link>
                 <div className='flex items-center gap-[10px]'>
                     
                 </div>
@@ -52,22 +52,22 @@ function Navbar() {
                 <div className="menu" ref={menuRef} onClick={toggleMenu}>
                     <ul className='flex gap-10 items-center'>
                         <li className='text-smallTextColor text-[26px] font-[600] hover:underline'>
-                            {/* <a style={{color: "#042954"}} onClick={handleClick} href="#home">Home</a> */}
                             <Link style={{color: "#042954"}} to='/'>Home</Link>
                         </li>
                         <li className='text-smallTextColor text-[26px] font-[600] hover:underline'>
-                            {/* <a style={{color: "#042954"}} onClick={handleClick} href="#about">About us</a> */}
-                            <HashLink style={{color: "#042954"}} to='/#about'>About us</HashLink>
+                            <Link style={{color: "#042954"}} to='/about'>About us</Link>
                         </li>
                         <li className='text-smallTextColor text-[26px] font-[600] hover:underline'>
-                            {/* <a style={{color: "#042954"}} onClick={handleClick} href="">Real Estate Development</a> */}
                             <Link style={{color: "#042954"}} to='/realestate'>Real Estate Development</Link>
                         </li>
                         <li className='text-smallTextColor text-[26px] font-[600] hover:underline'>
                             <Link style={{color: "#042954"}} to='/projects'>Projects</Link>
                         </li>
                         <li className='text-smallTextColor text-[26px] font-[600] hover:underline'>
-                            <Link style={{color: "#042954"}} to='/propertymanagement'>Property Management Services</Link>
+                            <Link style={{color: "#042954"}} to='/propertymanagement'>Property Management</Link>
+                        </li>
+                        <li className='text-smallTextColor text-[26px] font-[600] hover:underline'>
+                            <Link style={{color: "#042954"}} to='/education'>Education Consulting</Link>
                         </li>
                         <li className='text-smallTextColor text-[26px] font-[600] hover:underline'>
                             <Link style={{color: "#042954"}} to='/goldenvisa'>Golden Visa Immigration</Link>

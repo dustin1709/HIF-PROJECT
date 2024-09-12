@@ -98,6 +98,28 @@
     float: right;
 }
 
+.textCount {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4em;
+    color: #09366a;
+    text-shadow: 1px 1px 1px #d2e4f8,
+    1px 2px 1px #d2e4f8,
+    1px 3px 1px #d2e4f8,
+    1px 4px 1px #d2e4f8,
+    1px 5px 1px #d2e4f8,
+    1px 6px 1px #d2e4f8,
+    1px 7px 1px #d2e4f8,
+    1px 8px 1px #d2e4f8,
+    1px 9px 1px #d2e4f8,
+    1px 10px 1px #adcbee;
+}
+
+.blue {
+    color: #09366a;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 @media only screen and (max-width: 1258px) {
     .listEle {
         width: 25em;

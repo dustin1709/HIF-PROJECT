@@ -127,23 +127,35 @@ function HomeBanner() {
             </p>
             <ul className='pl-10 pb-5 pt-2 pr-8 text-center'>
                     <li className="listItem">
-                        <div className="flex justify-center"><img src={building} alt='icon' style={{width: '3.5rem', paddingBottom: '0.5em'}} /></div>
-                        <h1 className='text-3xl' ref={ref}><span style={{fontSize: '200%'}}>{useScrollTriggeredCountUp(ref, 73)}+</span> Apartment Buildings</h1>
+                        <div className="flex justify-center">
+                            <h1 className="textCount" ref={ref}>{useScrollTriggeredCountUp(ref, 73)}+</h1>
+                            {/* <img src={building} alt='icon' style={{width: '3.5rem', paddingBottom: '0.5em'}} /> */}
+                        </div>
+                        <h1 className='text-xl blue'>Apartment Buildings</h1>
                     </li>
                     
                     <li className="listItem">
-                    <div className="flex justify-center"><img src={room} alt='icon' style={{width: '3.5rem', paddingBottom: '0.5em'}} /></div>
-                        <h1 className='text-3xl' ref={ref}><span style={{fontSize: '200%'}}>{useScrollTriggeredCountUp(ref, 892)}+</span> Apartments</h1>
+                    <div className="flex justify-center">
+                        <h1 ref={ref} className="textCount">{useScrollTriggeredCountUp(ref, 892)}+</h1>
+                        {/* <img src={room} alt='icon' style={{width: '3.5rem', paddingBottom: '0.5em'}} /> */}
+                    </div>
+                        <h1 className='text-xl blue'>Apartments</h1>
                     </li>
                     
                     <li className="listItem">
-                    <div className="flex justify-center"><img src={family} alt='icon' style={{width: '3.5rem', paddingBottom: '0.5em'}} /></div>
-                        <h1 className='text-3xl' ref={ref}><span style={{fontSize: '200%'}}>{useScrollTriggeredCountUp(ref, 787)}+</span> Families</h1>
+                    <div className="flex justify-center">
+                        <h1 ref={ref} className="textCount">{useScrollTriggeredCountUp(ref, 787)}+</h1>
+                        {/* <img src={family} alt='icon' style={{width: '3.5rem', paddingBottom: '0.5em'}} /> */}
+                    </div>
+                        <h1 className='text-xl blue'>Successful applications</h1>
                     </li>
                     
                     <li className="listItem">
-                    <div className="flex justify-center"><img src={country} alt='icon' style={{width: '3.5rem', paddingBottom: '0.5em'}} /></div>
-                    <h1 className='text-3xl' ref={ref}><span style={{fontSize: '200%'}}>{useScrollTriggeredCountUp(ref, 7)}+</span> countries</h1>
+                    <div className="flex justify-center">
+                        <h1 ref={ref} className="textCount">{useScrollTriggeredCountUp(ref, 7)}+</h1>
+                        {/* <img src={country} alt='icon' style={{width: '3.5rem', paddingBottom: '0.5em'}} /> */}
+                    </div>
+                    <h1 className='text-xl blue'>Countries Partners</h1>
                     </li>
                 </ul>
             
@@ -156,13 +168,6 @@ function HomeBanner() {
                 </ul>
             </div>
             
-
-            <h1 className='pl-10 pr-8' style={{fontSize: '250%'}}>
-                Contact us
-            </h1>
-            <p className='pl-10 pr-8' style={{fontSize: '150%'}}>
-                Clients can reach out to us by contacting their local agent at their home country. We DO NOT accept client's application directly.
-            </p>
             <div className='p-5 clear-both'></div>
         </div>
         </>

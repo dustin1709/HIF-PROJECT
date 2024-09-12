@@ -38,7 +38,7 @@ function PropertyManagement() {
             backgroundRepeat: 'no-repeat',
             paddingLeft: '5%', paddingRight: '5%', paddingTop: '3%', paddingBottom: '15%',
         }}>
-            <div className="intro-div" style={{
+            <div style={{
                     backgroundColor: 'rgb(245, 243, 242, 38%)',
                     padding: '2%'
                 }}>
@@ -59,10 +59,16 @@ function PropertyManagement() {
             </p>
             <p>
             We provide a top-tier management service, ensuring your property is well-cared for and your investment is protected.
-            For select properties and developments, we also offer a rental guarantee scheme, providing additional security and maximizing your returns.
+            For select properties and developments, we also offer a rental guarantee scheme, providing additional security and maximizing your returns. Our professional property management services in Greece are designed to enhance the value and performance of your real estate investments. We offer a comprehensive suite of services, including:
             </p>
-            <p>
-            The real estate development projects chosen by HIF are carefully selected in prime locations near economic centers and fully equipped with living amenities, ensuring strong growth potential and maximizing rental and residential benefits for investors.
+            <ul>
+                <li><span style={{color: "#042954", fontWeight: "bold"}}>Tenant Relations:</span> We manage all aspects of tenant interactions, from finding and screening potential tenants to handling lease agreements and resolving any issues that arise during the tenancy.</li>
+                <li><span style={{color: "#042954", fontWeight: "bold"}}>Maintenance and Repairs:</span> Our team ensures that your property is well-maintained with regular inspections, prompt repairs, and proactive maintenance to preserve its value and appeal.</li>
+                <li><span style={{color: "#042954", fontWeight: "bold"}}>Financial Management:</span> We handle rent collection, accounting, and financial reporting, providing you with clear and accurate records of your property’s financial performance.</li>
+                <li><span style={{color: "#042954", fontWeight: "bold"}}>Legal Compliance:</span> We ensure that your property complies with all local regulations and legal requirements, including tenant rights and property safety standards.</li>
+            </ul>
+            <p className='mt-2'>
+            Located in key areas such as Athens, our services leverage local knowledge and expertise to provide exceptional management tailored to the Greek real estate market. Enjoy the benefits of a well-managed property with reduced stress and increased profitability
             </p>
             <br/>
             <h1 className="text-4xl">Strategies for Success</h1>
@@ -113,7 +119,7 @@ function PropertyManagement() {
             <p>
                 Hotel projects offering short-term rental services have demonstrated impressive performance metrics, with occupancy rates surpassing 90% during peak seasons and remaining above 65% during off-peak periods. Through a combination of excellent guest services, strategic pricing, and effective marketing, these projects successfully capitalize on market demand and ensure consistent revenue streams throughout the year.
             </p>
-            <h1 style={{fontSize: '135%', paddingTop: '2%'}}>Others notable projects</h1>
+            <h1 style={{fontSize: '145%', paddingTop: '2%'}}>Notable rental projects</h1>
             <div className='md:flex flex-row'>
                 <div className='sbox'>
                     <h1 style={{fontSize: '125%', paddingTop: '2%'}}>Notora Elegent</h1>
@@ -150,7 +156,7 @@ function PropertyManagement() {
                 </div>
             </div>
         </div>
-        
+        <br />
         </>
     )
 }

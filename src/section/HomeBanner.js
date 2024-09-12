@@ -41,7 +41,7 @@ function HomeBanner() {
             backgroundPosition: 'center',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
-            padding: '5%'
+            padding: '3%'
         }} id='home'>
             <div className="intro-div">
                 <TypeAnimation 
@@ -50,7 +50,7 @@ function HomeBanner() {
                         500,
                         'η ελπίδα πυροδοτεί την πίστη',
                         500,
-                        'Đầu tư Hy Lạp - tháp sáng tương lai',
+                        'Đầu tư Hy Lạp - Thắp sáng tương lai',
                         500,
                         '投资希腊 - 投资希望',
                         500,
@@ -63,7 +63,7 @@ function HomeBanner() {
                     ]}
                     wrapper="h1"
                     speed={10}
-                    style={{color: "#FFFF", fontSize: '350%', textShadow: '2px 3px 2px black', fontFamily: "Apple Chancery, cursive"}}
+                    style={{color: "#FFFF", fontSize: '280%', textShadow: '2px 5px 2px black', fontFamily: "Courier New"}}
                     repeat={Infinity}
                 />
                 {/* <h1 style={{color: "#FFFF", fontSize: '520%', textShadow: '1px 1px 2px black', fontFamily: "'Lucida Handwriting', Cursive, monospace"}}>

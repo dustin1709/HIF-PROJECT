@@ -51,25 +51,25 @@ function Navbar() {
 
                 <div className="menu" ref={menuRef} onClick={toggleMenu}>
                     <ul className='flex gap-10 items-center'>
-                        <li className='text-smallTextColor text-[23px] font-[600] hover:underline'>
+                        <li className='text-smallTextColor text-[22.7px] font-[600] hover:underline'>
                             <Link style={{color: "#042954"}} to='/'>Home</Link>
                         </li>
-                        <li className='text-smallTextColor text-[23px] font-[600] hover:underline'>
+                        <li className='text-smallTextColor text-[22.7px] font-[600] hover:underline'>
                             <Link style={{color: "#042954"}} to='/about'>About us</Link>
                         </li>
-                        <li className='text-smallTextColor text-[23px] font-[600] hover:underline'>
+                        <li className='text-smallTextColor text-[22.7px] font-[600] hover:underline'>
                             <Link style={{color: "#042954"}} to='/realestate'>Real Estate Development</Link>
                         </li>
-                        <li className='text-smallTextColor text-[23px] font-[600] hover:underline'>
+                        <li className='text-smallTextColor text-[22.7px] font-[600] hover:underline'>
                             <Link style={{color: "#042954"}} to='/projects'>Projects</Link>
                         </li>
-                        <li className='text-smallTextColor text-[23px] font-[600] hover:underline'>
+                        <li className='text-smallTextColor text-[22.7px] font-[600] hover:underline'>
                             <Link style={{color: "#042954"}} to='/propertymanagement'>Property Management</Link>
                         </li>
-                        <li className='text-smallTextColor text-[23px] font-[600] hover:underline'>
+                        <li className='text-smallTextColor text-[22.7px] font-[600] hover:underline'>
                             <Link style={{color: "#042954"}} to='/education'>Education Consulting</Link>
                         </li>
-                        <li className='text-smallTextColor text-[23px] font-[600] hover:underline'>
+                        <li className='text-smallTextColor text-[22.7px] font-[600] hover:underline'>
                             <Link style={{color: "#042954"}} to='/goldenvisa'>Golden Visa Immigration</Link>
                         </li>
                     </ul>

@@ -71,15 +71,15 @@ function HomeBanner() {
                 </h1> */}
             </div>
         </div>
-        <p className='pl-10 pr-8 mt-8' style={{fontSize: '170%'}}>
-            Hellenic Investment Fund (HIF) takes pride in its team of highly experienced professionals in financial investment, real estate development, construction, and international relations. With a commitment to professionalism and dedication, our organization is structured into key divisions: design and construction, project management, real estate leasing and management, and social relations development in Greece.
+        <p className='pl-10 pr-8 pb-2 mt-8' style={{fontSize: '170%'}}>
+            Hellenic Investment Fund Co IKE takes pride in its team of highly experienced professionals in financial investment, real estate development, construction, and international relations. With a commitment to professionalism and dedication, our organization is structured into key divisions: design and construction, project management, real estate leasing and management, and social relations development in Greece.
         </p>
         <div>
 
             <h1 className='pl-10 pr-8' style={{fontSize: '255%'}}>
                 Our services
             </h1>
-            <p className='pl-10 pr-8 text-2xl'>Our company specializes in the development, planning, and construction of real estate across Europe, offering premium products such as apartments, homestays, subdivided houses, and villas for investors. We are committed to providing high-quality properties and comprehensive management services. Focusing on a B2B collaboration model with international partners, we uphold the philosophy of 'Shared Interests – Mutual Growth' as the core of our business.</p>
+            <p className='pl-10 pr-8 pb-2 text-2xl'>Our company specializes in the development, planning, and construction of real estate across Europe, offering premium products such as apartments, homestays, subdivided houses, and villas for investors. We are committed to providing high-quality properties and comprehensive management services. Focusing on a B2B collaboration model with international partners, we uphold the philosophy of 'Shared Interests – Mutual Growth' as the core of our business.</p>
             <div>
                 <div className="coloredItems hideRight">
                     <h1 className="text-4xl">Real Estate development</h1>

@@ -8,6 +8,10 @@ body {
   font-weight: 100;
 }
 
+.active {
+  text-decoration: underline;
+}
+
 .header {
   background-color: white;
 }
@@ -91,6 +95,18 @@ html {
   width: 30%;
 }
 
+.desc-img-left {
+  width: 40%;
+  float: left;
+  padding-right: 2.5%;
+}
+
+.desc-text-right {
+  width: 55%;
+  float: right;
+  padding-right: 3%;
+}
+
 @media only screen and (max-width: 1265px) {
   .mybar {
     display: block;
@@ -138,5 +154,11 @@ html {
   }
   .footercover {
     display: block;
+  }
+  .desc-img-left {
+    width: 100%;
+  }
+  .desc-text-right {
+    width: 100%;
   }
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import { useState, useEffect, useRef } from "react";
+import photo from '../assets/images/flag.jpg';
 
 function About() {
     return (
@@ -143,15 +144,18 @@ function About() {
                 </div>
             </div>
             </div>
-            <h1 className='pl-10 pr-8' style={{fontSize: '250%'}}>
-                Our Vision
-            </h1>
-            <p className='pl-10 pr-8' style={{fontSize: '170%'}}>
-                We are always focused on delivering practical value and maximizing benefits for our partners. Operating under the motto "Building Together – Growing Together," we are committed to creating sustainable and long-term collaborative opportunities.
-            </p>
-            <p className='pl-10 pr-8' style={{fontSize: '170%'}}>
-                We are committed to delivering high-quality products and comprehensive management services, focusing on a B2B collaboration model with international partners. Our guiding principle is "Shared Benefits – Mutual Growth."
-            </p>
+            <div className="desc-img-left">
+                <h1 className='pl-10' style={{fontSize: '250%'}}>
+                    Our Vision
+                </h1>
+                <p className='pl-10' style={{fontSize: '170%'}}>
+                    We are always focused on delivering practical value and maximizing benefits for our partners. Operating under the motto "Building Together – Growing Together," we are committed to creating sustainable and long-term collaborative opportunities.
+                </p>
+                <p className='pl-10' style={{fontSize: '170%'}}>
+                    We are committed to delivering high-quality products and comprehensive management services, focusing on a B2B collaboration model with international partners. Our guiding principle is "Shared Benefits – Mutual Growth."
+                </p>
+            </div>
+            <img className="desc-text-right pl-10" src={photo}  alt="Greece_flag"/>
         </div>
         </div>
         </div>

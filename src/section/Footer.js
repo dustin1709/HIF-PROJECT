@@ -1,7 +1,7 @@
 import React from "react";
 import backgroundImg from '../assets/images/footerbkg.jpg';
 import { FaCopyright, FaMapPin } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Footer() {
     return (
@@ -21,13 +21,13 @@ function Footer() {
                 <div className="shadow-on-text">
                     <h1 className="pl-10 pt-5 text-3xl">Quick Links</h1>
                     <ul className="pl-10 pt-1 pb-3 text-2xl">
-                        <li><Link to='/'>Home</Link></li>
-                        <li><Link to='/about'>About us</Link></li>
-                        <li><Link to='/realestate'>Real Estate</Link></li>
-                        <li><Link to='/projects'>Projects</Link></li>
-                        <li><Link to='/propertymanagement'>Property Management</Link></li>
-                        <li><Link to='/education'>Education Consulting</Link></li>
-                        <li><Link to='/goldenvisa'>Golden Visa Immigration Program</Link></li>
+                        <li><NavLink to='/' activeClassname="active">Home</NavLink></li>
+                        <li><NavLink to='/about' activeClassname="active">About us</NavLink></li>
+                        <li><NavLink to='/realestate' activeClassname="active">Real Estate</NavLink></li>
+                        <li><NavLink to='/projects' activeClassname="active">Projects</NavLink></li>
+                        <li><NavLink to='/propertymanagement' activeClassname="active">Property Management</NavLink></li>
+                        <li><NavLink to='/education' activeClassname="active">Education Consulting</NavLink></li>
+                        <li><NavLink to='/goldenvisa' activeClassname="active">Golden Visa Immigration Program</NavLink></li>
                     </ul>
                     <div className='p-10 clear-both'></div>
                     <div className='p-10 clear-both'></div>

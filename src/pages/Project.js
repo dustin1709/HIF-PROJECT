@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Listings from "../hooks/Listings";
+import '../assets/sectioncss/Project.css';
 
 function Project() {
     const settings = {
@@ -29,15 +30,10 @@ function Project() {
     
     return (
         <div>
-            <div>
-            <div style={{
-                    backgroundColor: 'rgb(245, 243, 242, 88%)',
-                    padding: '3%'
-                }}>
-                    <h1 style={{color: "black", fontSize: '320%'}}>
-                        HIF Projects
-                    </h1>
-            </div>
+            <div className="hero">
+                <video className="back-video" autoPlay loop muted playsInline>
+                    <source src="https://hif-greece.s3.ap-northeast-1.amazonaws.com/PROJECT.mp4" type="video/mp4" />
+                </video>
             </div>
             <div className="p-8">
                 <h1 className="text-4xl">About our projects</h1>

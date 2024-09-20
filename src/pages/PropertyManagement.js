@@ -1,6 +1,7 @@
 import React from "react";
 import backgroundImg from '../assets/images/property.jpg';
 import hotel from '../assets/images/hotel.jpg';
+import hifphoto from '../assets/images/PROPERTYMANAGEMENT.png'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -51,15 +52,25 @@ function PropertyManagement() {
             </div>
         </div>
         <div className='text-2xl p-7 mt-5 mb-5 ml-5 mr-3'>
-            <h1 style={{color: "black", fontSize: '200%', paddingBottom: '1%'}}>
-                Property management at HIF
-            </h1>
+            <div>
+                <div className="desc-text-right">
+                    <h1 style={{color: "black", fontSize: '200%', paddingBottom: '1%'}}>
+                        Property management at HIF
+                    </h1>
+                    <p>
+                        Our dedicated aftersales-property management team offers expert care for your property, whether it’s for personal use or rental investment. You can have absolute peace of mind, knowing that your property is maintained to the highest standards.
+                    </p>
+                    <p>
+                        We provide a top-tier management service, ensuring your property is well-cared for and your investment is protected.
+                    </p>
+                </div>
+                <div className="desc-img-left">
+                    <img src={hifphoto} alt="hif_ike_co_building" />
+                </div>
+            </div>
+            <div style={{padding: "0.5%", clear: "both"}}></div>
             <p>
-            Our dedicated aftersales-property management team offers expert care for your property, whether it’s for personal use or rental investment. You can have absolute peace of mind, knowing that your property is maintained to the highest standards.
-            </p>
-            <p>
-            We provide a top-tier management service, ensuring your property is well-cared for and your investment is protected.
-            For select properties and developments, we also offer a rental guarantee scheme, providing additional security and maximizing your returns. Our professional property management services in Greece are designed to enhance the value and performance of your real estate investments. We offer a comprehensive suite of services, including:
+                For select properties and developments, we also offer a rental guarantee scheme, providing additional security and maximizing your returns. Our professional property management services in Greece are designed to enhance the value and performance of your real estate investments. We offer a comprehensive suite of services, including:
             </p>
             <ul>
                 <li><span style={{color: "#042954", fontWeight: "bold"}}>Tenant Relations:</span> We manage all aspects of tenant interactions, from finding and screening potential tenants to handling lease agreements and resolving any issues that arise during the tenancy.</li>

@@ -11,6 +11,7 @@ import useScrollTriggeredCountUp from "../hooks/useScrollTriggerCountUp";
 import CampusNest from '../assets/images/real-estates/CAMPUSNEST.jpg';
 import BedRoom from '../assets/images/bedroom2-view1.jpg';
 import School from '../assets/images/school.jpg';
+import hif from '../assets/images/hif.png';
 import { Link } from "react-router-dom";
 import { FaExternalLinkSquareAlt } from "react-icons/fa";
 
@@ -71,9 +72,16 @@ function HomeBanner() {
                 </h1> */}
             </div>
         </div>
-        <p className='pl-10 pr-8 pb-2 mt-8' style={{fontSize: '170%'}}>
-            Hellenic Investment Fund Co IKE takes pride in its team of highly experienced professionals in financial investment, real estate development, construction, and international relations. With a commitment to professionalism and dedication, our organization is structured into key divisions: design and construction, project management, real estate leasing and management, and social relations development in Greece.
-        </p>
+        
+        <div className="pt-1 pl-5 mt-8">
+            <img id='hif-img' className="pl-5" src={hif} alt="hif_co_ike" />
+            <p id='intro-p' className='pl-5 pr-8 pb-2' style={{fontSize: '170%'}}>
+                Hellenic Investment Fund Co IKE takes pride in its team of highly experienced professionals in financial investment, real estate development, construction, and international relations. With a commitment to professionalism and dedication, our organization is structured into key divisions: design and construction, project management, real estate leasing and management, and social relations development in Greece.
+            </p>
+        </div>
+
+        <div style={{padding: '0.25%', clear: 'both'}}></div>
+
         <div>
 
             <h1 className='pl-10 pr-8' style={{fontSize: '255%'}}>

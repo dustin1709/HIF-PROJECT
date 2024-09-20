@@ -1,7 +1,7 @@
 import React, {useRef, useEffect} from 'react';
 import { FaBars, FaWindowClose } from "react-icons/fa";
 import logoImg from '../assets/images/logo.png';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
 function Navbar() {
@@ -52,25 +52,25 @@ function Navbar() {
                 <div className="menu" ref={menuRef} onClick={toggleMenu}>
                     <ul className='flex gap-10 items-center'>
                         <li className='text-smallTextColor text-[22.7px] font-[200] hover:underline'>
-                            <Link style={{color: "#042954"}} to='/'>Home</Link>
+                            <NavLink style={{color: "#042954"}} to='/' activeClassname="active">Home</NavLink>
                         </li>
                         <li className='text-smallTextColor text-[22.7px] font-[200] hover:underline'>
-                            <Link style={{color: "#042954"}} to='/about'>About us</Link>
+                            <NavLink style={{color: "#042954"}} to='/about' activeClassname="active">About us</NavLink>
                         </li>
                         <li className='text-smallTextColor text-[22.7px] font-[200] hover:underline'>
-                            <Link style={{color: "#042954"}} to='/realestate'>Real Estate Development</Link>
+                            <NavLink style={{color: "#042954"}} to='/realestate' activeClassname="active">Real Estate Development</NavLink>
                         </li>
                         <li className='text-smallTextColor text-[22.7px] font-[200] hover:underline'>
-                            <Link style={{color: "#042954"}} to='/projects'>Projects</Link>
+                            <NavLink style={{color: "#042954"}} to='/projects' activeClassname="active">Projects</NavLink>
                         </li>
                         <li className='text-smallTextColor text-[22.7px] font-[200] hover:underline'>
-                            <Link style={{color: "#042954"}} to='/propertymanagement'>Property Management</Link>
+                            <NavLink style={{color: "#042954"}} to='/propertymanagement' activeClassname="active">Property Management</NavLink>
                         </li>
                         <li className='text-smallTextColor text-[22.7px] font-[200] hover:underline'>
-                            <Link style={{color: "#042954"}} to='/education'>Education Consulting</Link>
+                            <NavLink style={{color: "#042954"}} to='/education' activeClassname="active">Education Consulting</NavLink>
                         </li>
                         <li className='text-smallTextColor text-[22.7px] font-[200] hover:underline'>
-                            <Link style={{color: "#042954"}} to='/goldenvisa'>Golden Visa Immigration</Link>
+                            <NavLink style={{color: "#042954"}} to='/goldenvisa' activeClassname="active">Golden Visa Immigration</NavLink>
                         </li>
                     </ul>
                 </div>

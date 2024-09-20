@@ -120,6 +120,16 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+#hif-img {
+    width: 20%;
+    float: left;
+}
+
+#intro-p {
+    width: 80%;
+    float: right;
+}
+
 @media only screen and (max-width: 1258px) {
     .listEle {
         width: 25em;
@@ -142,5 +152,12 @@
     .fig-right {
         width: 30%;
         float: right;
+    }
+
+    #hif-img {
+        display: none;
+    }
+    #intro-p {
+        width: 100%;
     }
 }

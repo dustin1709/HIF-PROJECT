@@ -38,8 +38,8 @@ function RealEstate() {
             </p>
             <div className="pb-2">
                 <figure className=''>
-                    <img src={procedureImg} alt="Real-estate" style={{width: '62%', left: '18%', position: 'relative'}} />
-                    <figcaption style={{width: '62%', left: '18%', position: 'relative'}} className="text-xl">
+                    <img src={procedureImg} alt="Real-estate" style={{width: '80%', left: '10%', position: 'relative'}} />
+                    <figcaption style={{width: '90%', left: '5%', position: 'relative'}} className="text-xl">
                         Piraeus, a port city near Athens, home to Greece's largest port, has experienced a 28% increase in average property values in the second quarter of 2024 compared to last year.&nbsp;
                         <i>Src: piraeustower.gr</i>
                     </figcaption>

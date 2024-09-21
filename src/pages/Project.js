@@ -62,6 +62,12 @@ function Project() {
                                     <li>{property.sp2}</li>
                                     <li>{property.sp3}</li>
                                     {property.sp4 == "" ? <li>&nbsp;</li> : <li>{property.sp4}</li>}
+                                    {property.sp5 == "" ? <li>&nbsp;</li> : <li>{property.sp5}</li>}
+                                    {property.sp6 == "" ? <li>&nbsp;</li> : <li>{property.sp6}</li>}
+                                    {property.sp7 == "" ? <li>&nbsp;</li> : <li>{property.sp7}</li>}
+                                    {property.sp8 == "" ? <li>&nbsp;</li> : <li>{property.sp8}</li>}
+                                    {property.sp9 == "" ? <li>&nbsp;</li> : <li>{property.sp9}</li>}
+                                    {property.sp10 == "" ? <li>&nbsp;</li> : <li>{property.sp10}</li>}
                                 </ul>
                             </div>
                         </div>

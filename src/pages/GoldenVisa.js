@@ -1,7 +1,6 @@
 import React from "react";
 import backgroundImg from '../assets/images/GV.jpg';
-import procedureImg from '../assets/images/GoldenVisaProcedure_Greek.png';
-import imgTravel from '../assets/images/travel.jpg';
+import imgTravel from '../assets/images/hif-small.png';
 import benefits from "../hooks/benefits";
 
 import {
@@ -82,10 +81,7 @@ function GoldenVisa() {
                 <p style={{color: "black", fontSize: '150%'}}>
                     With a proven track record, the HIF team can help your family obtain a Golden Visa with ease and efficiency. Our experienced professionals guide you through every step of the process, ensuring a seamless experience while securing the benefits of residency or citizenship. HIF is committed to help your family and business to open doors to new opportunities and visa-free travel.
                 </p>
-
-                <figure className='p-5 flex justify-center'>
-                <img src={procedureImg} alt="procdure-of-getting-Golden-Visa" style={{width: '90%'}} />
-                </figure>
+            
                 <p style={{color: "black", fontSize: '150%'}}>
                 As of 2023, HIF has successfully assisted 787 families in obtaining EU residency through the Golden Visa program, achieving an impeccable 100% success rate. Our commitment to excellence, personalized guidance, and in-depth knowledge of the process ensures that each family we support receives the highest level of service and a smooth path to securing their Golden Visa. With HIF, you can trust in a reliable partner who delivers results, allowing your family to enjoy the benefits of residency, freedom of travel, and access to new opportunities across Europe.
                 </p>
@@ -94,22 +90,22 @@ function GoldenVisa() {
                 </h1>
                 <p style={{color: "black", fontSize: '150%'}}>
                 Step 1: Initial Deposit <br/>
-•	Customer places a 10% deposit for the property in Greece. <br/>
-Step 2: Finalize Purchase Agreement<br/>
- Finalize the purchase agreement for the property and prepare the Power of Attorney (POA) documents.<br/>
-Step 3: Complete Full Payment<br/>
-•	Customer must complete the full payment for the property (100% of the purchase price) and cover any third-party fees.<br/>
-Step 4: Transfer of Property<br/>
-•	 Finalize the property transfer process to the investor.<br/>
-Step 5: Receive White Paper<br/>
-•	Customer receives the White Paper, which is a preliminary document required for the Golden Visa application.<br/>
-Step 6: Apply for Golden Visa<br/>
-•	Submit the application for the Golden Visa, including all necessary documents.<br/>
-Step 7: Biometrics and Residence Card<br/>
-•	Complete fingerprinting and other biometric requirements, and receive the temporary residence card.<br/>
-Step 8: Receive Permanent Residence Card<br/>
-•	Customer receives the permanent residence card, which may be delivered via courier.<br/>
-Step 9: Property Handover
+                •	Customer places a 10% deposit for the property in Greece. <br/>
+                Step 2: Finalize Purchase Agreement<br/>
+                Finalize the purchase agreement for the property and prepare the Power of Attorney (POA) documents.<br/>
+                Step 3: Complete Full Payment<br/>
+                •	Customer must complete the full payment for the property (100% of the purchase price) and cover any third-party fees.<br/>
+                Step 4: Transfer of Property<br/>
+                •	 Finalize the property transfer process to the investor.<br/>
+                Step 5: Receive White Paper<br/>
+                •	Customer receives the White Paper, which is a preliminary document required for the Golden Visa application.<br/>
+                Step 6: Apply for Golden Visa<br/>
+                •	Submit the application for the Golden Visa, including all necessary documents.<br/>
+                Step 7: Biometrics and Residence Card<br/>
+                •	Complete fingerprinting and other biometric requirements, and receive the temporary residence card.<br/>
+                Step 8: Receive Permanent Residence Card<br/>
+                •	Customer receives the permanent residence card, which may be delivered via courier.<br/>
+                Step 9: Property Handover
                 </p>
             </div>
             <div style={{ 
@@ -120,7 +116,7 @@ Step 9: Property Handover
             }}>
             <img id='imgPostCard' style={{width: '100%'}} src={imgTravel} />
             <div className='notice p-5'>
-                <h1 style={{color: "black", fontSize: '200%', textDecoration: 'underline'}}>
+                <h1 className="font-[400]" style={{color: "black", fontSize: '280%'}}>
                     How to get your Golden Visa with HIF
                 </h1>
                 <p style={{color: "black", fontSize: '150%'}}>

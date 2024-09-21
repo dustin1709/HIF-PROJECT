@@ -1,6 +1,7 @@
 import React from "react";
 import photo from '../assets/images/Artboard643.png'
 import '../assets/sectioncss/RealEstate.css';
+import procedureImg from '../assets/images/Piraeus.webp';
 
 function RealEstate() {
     return (
@@ -24,6 +25,32 @@ function RealEstate() {
             </div>
             <div style={{padding: '1%', clear: 'both'}}></div>
             <h1 style={{color: "black", fontSize: '200%', paddingTop: '1%'}}>
+                Greece Real Estate insights
+            </h1>
+            <p style={{color: "black", fontSize: '140%', paddingBottom: '1.25%'}}>
+                Property prices in Greece are expected to continue rising in 2024, though at a slower rate than in recent years. According to the Bank of Greece, property prices saw a 7.9% increase in 2023, reflecting a robust recovery since the financial crisis.
+                Athens and Thessaloniki have emerged as key players in Greece's real estate resurgence, particularly since 2018. Athens, in particular, has experienced a strong surge in demand for residential properties.
+                These areas have attracted significant attention thanks to their proximity to cultural landmarks, lively urban environments, and recent infrastructure upgrades.
+            </p>
+            <p style={{color: "black", fontSize: '140%', paddingBottom: '1.25%'}}>
+                Furthermore, Greece's booming tourism industry has a substantial influence on the real estate market, especially in high-demand locations such as Santorini, Mykonos, and Crete. Properties in these regions, frequently utilized as short-term rentals, offer strong returns, particularly during peak tourist seasons.
+                The rising popularity of Greece as a tourist hotspot—drawing over 33 million visitors in 2023—continues to drive growth in this segment of the real estate market.
+            </p>
+            <div className="pb-2">
+                <figure className='text-center'>
+                    <img src={procedureImg} alt="Real-estate" style={{width: '62%', left: '18%', position: 'relative'}} />
+                    <figcaption className="text-xl">Piraeus, a port city near Athens, home to Greece's largest port, has experienced a 28% increase in average property values in the second quarter of 2024 compared to last year.</figcaption>
+                </figure>
+            </div>
+            <p style={{color: "black", fontSize: '140%'}}>
+                Data from the Bank of Greece indicates that residential property prices in central Athens surged by over 35% between 2018 and 2023, as the surge in foreign investment, along with the resurgence of domestic demand, has been a key driver of this growth.
+            </p>
+            <p style={{color: "black", fontSize: '140%'}}>
+                The Greek government has implemented several tax incentives to boost the real estate market, including reductions in the ENFIA property tax and the suspension of VAT on new construction until 2025. 
+                These initiatives have effectively drawn both domestic and foreign investors, fueling market growth. 
+                However, the stability of these incentives is uncertain. Future governments may revise or withdraw these tax policies, potentially impacting property values and investor returns.
+            </p>
+            <h1 style={{color: "black", fontSize: '200%', paddingTop: '2%'}}>
                 Our commitment to B2B
             </h1>
             <p style={{color: "black", fontSize: '140%'}}>

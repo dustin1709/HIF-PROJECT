@@ -23,7 +23,7 @@ function Footer() {
                     <ul className="pl-10 pt-1 pb-3 text-2xl">
                         <li><NavLink to='/' activeClassname="active">Home</NavLink></li>
                         <li><NavLink to='/about' activeClassname="active">About us</NavLink></li>
-                        <li><NavLink to='/realestate' activeClassname="active">Real Estate</NavLink></li>
+                        <li><NavLink to='/realestate' activeClassname="active">Real Estate Development</NavLink></li>
                         <li><NavLink to='/projects' activeClassname="active">Projects</NavLink></li>
                         <li><NavLink to='/propertymanagement' activeClassname="active">Property Management</NavLink></li>
                         <li><NavLink to='/education' activeClassname="active">Education Consulting</NavLink></li>

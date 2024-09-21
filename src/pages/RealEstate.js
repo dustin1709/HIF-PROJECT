@@ -1,7 +1,7 @@
 import React from "react";
 import photo from '../assets/images/Artboard643.png'
 import '../assets/sectioncss/RealEstate.css';
-import procedureImg from '../assets/images/Piraeus.webp';
+import procedureImg from '../assets/images/Piraeus.jpg';
 
 function RealEstate() {
     return (
@@ -24,7 +24,7 @@ function RealEstate() {
                 <img className="desc-text-right" src={photo} alt="hif-img-real-estate" />
             </div>
             <div style={{padding: '1%', clear: 'both'}}></div>
-            <h1 style={{color: "black", fontSize: '200%', paddingTop: '1%'}}>
+            <h1 style={{color: "black", fontSize: '200%', paddingTop: '3.55%'}}>
                 Greece Real Estate insights
             </h1>
             <p style={{color: "black", fontSize: '140%', paddingBottom: '1.25%'}}>
@@ -37,9 +37,12 @@ function RealEstate() {
                 The rising popularity of Greece as a tourist hotspot—drawing over 33 million visitors in 2023—continues to drive growth in this segment of the real estate market.
             </p>
             <div className="pb-2">
-                <figure className='text-center'>
+                <figure className=''>
                     <img src={procedureImg} alt="Real-estate" style={{width: '62%', left: '18%', position: 'relative'}} />
-                    <figcaption className="text-xl">Piraeus, a port city near Athens, home to Greece's largest port, has experienced a 28% increase in average property values in the second quarter of 2024 compared to last year.</figcaption>
+                    <figcaption style={{width: '62%', left: '18%', position: 'relative'}} className="text-xl">
+                        Piraeus, a port city near Athens, home to Greece's largest port, has experienced a 28% increase in average property values in the second quarter of 2024 compared to last year.&nbsp;
+                        <i>Src: piraeustower.gr</i>
+                    </figcaption>
                 </figure>
             </div>
             <p style={{color: "black", fontSize: '140%'}}>

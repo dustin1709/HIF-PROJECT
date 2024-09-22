@@ -1,5 +1,5 @@
 import React from "react";
-import backgroundImg from '../assets/images/GV.jpg';
+import backgroundImg from '../assets/images/GV.png';
 import imgTravel from '../assets/images/hif-small.png';
 import benefits from "../hooks/benefits";
 
@@ -15,26 +15,9 @@ import 'react-accessible-accordion/dist/fancy-example.css';
 function GoldenVisa() {
     return (
         <div>
-        <div style={{ 
-            backgroundImage: `url(${backgroundImg})`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            backgroundRepeat: 'no-repeat',
-            paddingLeft: '5%', paddingRight: '5%', paddingTop: '3%', paddingBottom: '15%',
-        }}>
-            <div style={{
-                    textAlign: 'center',
-                    backgroundColor: 'rgb(10, 31, 138, 35%)'
-                }}>
-                    <h1 style={{color: "white", fontSize: '300%', textShadow: '5px 5px 5px darkblue'}}>Golden Visa</h1>
-                    <h1 style={{color: "white", fontSize: '320%', 
-                        textShadow: '5px 5px 3px darkblue'
-                    }}>
-                    Unlock Visa-Free Travel for Your Family
-                    </h1>
-            </div>
-        </div>
+            <img src={backgroundImg} alt="background-golden-visa" />
             <div className='p-10 mt-5 mb-5 ml-5 mr-3'>
+            <h1 style={{color: "black", fontSize: '315%'}}>Golden Visa: Unlock Visa-Free Travel for Your Family</h1>
                 <h1 style={{color: "black", fontSize: '200%'}}>
                     Golden Visa Immigration
                 </h1>

@@ -1,6 +1,7 @@
 import React from "react";
 import backgroundImg from '../assets/images/GV.png';
 import imgTravel from '../assets/images/hif-small.png';
+import imgTravelbkg from '../assets/images/hif-small-bkg.png';
 import benefits from "../hooks/benefits";
 
 import {
@@ -95,9 +96,13 @@ function GoldenVisa() {
                 backgroundColor: '#f1f1f1',
                 margin: '5%',
                 display: 'grid',
-                gridTemplateColumns: '20% 80%'
+                gridTemplateColumns: '15% 85%'
             }}>
-            <img id='imgPostCard' style={{width: '100%'}} src={imgTravel} />
+            <div style={{backgroundImage: `url(${imgTravelbkg})`, backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat'}}>
+                <img id='imgPostCard' style={{width: '100%'}} src={imgTravel} />
+            </div>
             <div className='notice p-5'>
                 <h1 className="font-[400]" style={{color: "black", fontSize: '280%'}}>
                     How to get your Golden Visa with HIF

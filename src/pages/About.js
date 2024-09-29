@@ -1,12 +1,14 @@
 import React from "react";
 import { useState, useEffect, useRef } from "react";
 import photo from '../assets/images/flag.jpg';
+import panorama from '../assets/images/panorama.jpg';
 
 function About() {
     return (
         <>
         <div>
-        <div id="about" className='pt-5 pb-5'>
+        <img src={panorama} alt='Greece-panorama-view' />
+        <div id="about" className='pb-5'>
             <h1 className="pl-10" style={{fontSize: '280%', marginTop: '2%'}}>
                 About HIF
             </h1>

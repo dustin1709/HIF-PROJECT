@@ -24,7 +24,7 @@ function Education() {
                     <div className="desc-text-right">
                         <h1 className="text-4xl">A Pathway to success</h1>
                         <p className="text-2xl">
-                            At the education consulting firm of Hellenic Investment Fund, we maintain close connections with both international and public schools in Greece, ensuring a healthy and exceptional educational environment for the children of our investors.
+                            By the education consulting arm of HIF, we maintain close connections with both international and public schools in Greece, ensuring a healthy and exceptional educational environment for the children of our investors.
                             <br />
                             Therefore, we have developed support services such as academic program consulting, exam preparation, and application guidance to help students secure offers from top universities.
                         </p>

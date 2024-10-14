@@ -76,7 +76,7 @@ function HomeBanner() {
         <div className="pt-1 pl-5 mt-8">
             <img id='hif-img' className="pl-5" src={hif} alt="hif_co_ike" />
             <p id='intro-p' className='pl-5 pr-8 pb-2' style={{fontSize: '170%'}}>
-                Hellenic Investment Fund Co IKE takes pride in its team of highly experienced professionals in financial investment, real estate development, construction, and international relations. With a commitment to professionalism and dedication, our organization is structured into key divisions: design and construction, project management, real estate leasing and management, and social relations development in Greece.
+            Hellenic Investment Fund Co IKE takes pride in its team of highly experienced professionals in financial investment, real estate development, construction, education, and international relations. By its strong commitment to professionalism and satisfactory client experience, our organization is structured into key divisions covering design and construction, project management, real estate leasing and management, client care and community relations development in Greece.    
             </p>
         </div>
 
@@ -87,7 +87,9 @@ function HomeBanner() {
             <h1 className='pl-10 pr-8' style={{fontSize: '255%'}}>
                 Our services
             </h1>
-            <p className='pl-10 pr-8 pb-2 text-2xl'>Our company specializes in the development, planning, and construction of real estate across Europe, offering premium products such as apartments, homestays, subdivided houses, and villas for investors. We are committed to providing high-quality properties and comprehensive management services. Focusing on a B2B collaboration model with international partners, we uphold the philosophy of 'Shared Interests – Mutual Growth' as the core of our business.</p>
+            <p className='pl-10 pr-8 pb-2 text-2xl'>
+            Our company specializes in the development, planning, and construction of real estate across Europe, offering premium products of student residence, family apartments, residential complex, and villas for investors as well as hospitality and tourism properties like hotels, Airbnb and hostels. We are committed to providing high-quality properties and comprehensive management services. Focusing on B2B business model across global partners, we uphold our philosophy of 'Common Interests – Mutual Benefits', the core of our business.
+            </p>
             <div>
                 <div className="coloredItems hideRight">
                     <h1 className="text-4xl">Real Estate development</h1>
@@ -95,9 +97,9 @@ function HomeBanner() {
                 <div className="coloredItems2 text-2xl hide">
                     <img className="fig-right descImg" src={CampusNest} />
                     <ul className="fig-left">
-                        <li>Positioning and developing real estate projects in Athens, Greece, to cater to international investors participating in the Greek Golden Visa program.</li>
-                        <li>Carefully selecting prime project locations near economic hubs and complete living amenities to ensure growth potential and maximize rental and residential benefits for investors.</li>
-                        <li>Developing high-quality projects such as luxury apartments, homestays, serviced apartments, and hotels, providing an exceptional investment and living experience for our partners and investors.</li>
+                        <li>Developing real estate cash projects like student residence in Athens, Greece, to cater to investors participating in the Greek Golden Visa program.</li>
+                        <li>Selecting prime project locations with easy access to business and academic hubs to deliver strong and sustainable ROI as well as maximize financial benefits for investors over the long haul.</li>
+                        <li>Developing value projects such as luxury family apartments, serviced apartments and hotels, providing an exceptional living experience for our partners and investors.</li>
                         <li><Link className="flex items-center gap-[5px]" style={{color: "#042954"}} to='/realestate'>See more <FaExternalLinkSquareAlt /></Link></li>
                     </ul>
                 </div>

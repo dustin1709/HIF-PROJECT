@@ -98,7 +98,7 @@ function PropertyManagement() {
                 </div>
                 <div>
                     <p>
-                    One of our standout projects, Athens Mosaico Luxury Suites & Apartments, which we built and manage ourselves, is centrally located in Athens and has been operating at full capacity. Its prime location offers the advantage of being close to numerous tourist attractions, enhancing its appeal and occupancy.
+                    One of our standout projects, Athens Mosaico Luxury Suites & Apartments, is centrally located in Athens and has been operating at full capacity. Its prime location offers the advantage of being close to numerous tourist attractions, enhancing its appeal and occupancy.
                     </p>
                     <p>
                         All can be reach in walking distance, no longer than 2 miles. Such as:

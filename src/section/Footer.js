@@ -14,8 +14,9 @@ function Footer() {
                 <div className="shadow-on-text">
                     <h1 className='pl-10 pt-5 text-3xl'>Our Offices</h1>
                     <ul className='pl-10 pr-2 pb-3 text-2xl'>
-                        <li className="pt-2 flex items-center"><FaMapPin /> Alimos, Athens, 17455</li>
-                        <li className="pt-2 flex items-center"><FaMapPin /> Thanh Xuan, Hanoi, Vietnam, 100000</li>
+                        <li className="pt-2 flex items-center"><FaMapPin /> Greece: Alimos, Athens, 17455</li>
+                        <li className="pt-2 flex items-center"><FaMapPin /> Vietnam: Thanh Xuan, Hanoi, Vietnam, 100000</li>
+                        <li className="pt-2 flex items-center"><FaMapPin /> Turkey: ZZET PAŞA MAH. YENİ YOL CAD. NUROL TOWER NO: 3 İÇ KAPI NO: 157- Kat22, No 2204</li>
                     </ul>
                 </div>
                 <div className="shadow-on-text">

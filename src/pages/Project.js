@@ -42,14 +42,14 @@ function Project() {
                 </p>
             </div>
             
-            <h1 className="pl-8 pt-8 text-4xl">Our Notable Projects</h1>
+            <h1 className="pl-8 pt-8 text-4xl">NOTABLE PROJECTS</h1>
             <div className="slider-container w-8/9 m-auto">
             <Slider {...settings}>
                 {
-                    Listings.map((property) => {return (
+                    Listings.slice(0).reverse().map((property) => {return (
                         <div key={property.id} className='pl-3 pr-3 pb-3 pt-2 flex items-center justify-center'>
                             <div className='flex justify-center rounded-t-xl pt-5' style={{backgroundColor: '#e0e0eb'}}>
-                                <img src={property.image} className="h-[270px]" style={{borderRadius: '7%'}} />
+                                <img src={property.image} className="h-[270px]" style={{borderRadius: '1%'}} />
                             </div>
                             <div className="p-2 text-center" style={{backgroundColor: '#e0e0eb'}}>
                                 <h2 className="text-3xl">{property.name}</h2>

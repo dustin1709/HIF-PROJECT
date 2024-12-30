@@ -4,6 +4,11 @@ import Notara from '../assets/images/real-estates/Notara.jpg';
 import TheImperial from '../assets/images/real-estates/TheImperial.jpg';
 import CampusNest from '../assets/images/real-estates/CAMPUSNEST.jpg';
 import GoldenUrban from '../assets/images/real-estates/GOLDENURBAN.jpg';
+import TitaniumEstate from '../assets/images/real-estates/TitaniumEstate.jpg';
+import EliteEstate from '../assets/images/real-estates/EliteEstate.png';
+import DreamNest from '../assets/images/real-estates/DreamNest.png';
+import EduNest from '../assets/images/real-estates/EduNest.jpg';
+import CrownPalace from '../assets/images/real-estates/CrownPalace.png';
 
 const Listings = [
         {
@@ -107,6 +112,91 @@ const Listings = [
             sp8: "",
             sp9: "",
             sp10: ""
+        },
+        {
+            id: 7,
+            name: "Dream Nest",
+            image: DreamNest,
+            location: "Chalandri, Athens, Greece",
+            desc: "Chalandri is a vibrant neighborhood, bustling with cocktail bars and cafés nestled along shaded pedestrian streets surrounding the St. Nicholas Church. It is also conveniently located near renowned universities and international schools, making it an ideal area for families seeking high-quality education for their children in Athens.",
+            sp1: "Vibrant cusine center of Athens",
+            sp2: "Near the largest port in Europe, Piraeus",
+            sp3: "Modern and convenient transportation",
+            sp4: "20 minutes to the Athens International Airport",
+            sp5: "Unique cultural festivals throughout the year",
+            sp6: "Spacious living room with natural light",
+            sp7: "3-bedroom apartments with high investment potential",
+            sp8: "Top medical services at Hygeia (400 m) and IASO hospital (1.2 km)",
+            sp9: "A central hub for accessing international schools such as the American Community Schools (ACS) and the International School of Athens (ISA)",
+            sp10: ""
+        },
+        {
+            id: 8,
+            name: "Edu Nest",
+            image: EduNest,
+            location: "Patision, Athens, Greece",
+            desc: "Patision vibrant neighborhood boasts a lively atmosphere, featuring unique shops, charming cafés, and exceptional restaurants, ensuring a rich and diverse experience.",
+            sp1: "Vibrant education center of Athens",
+            sp2: "Near the largest port in Europe, Piraeus",
+            sp3: "Modern and convenient transportation",
+            sp4: "Metro line 1 and 2 (within 600 m)",
+            sp5: "Numerous prestigious schools with EU-standard education, in less than 5 km radius",
+            sp6: "Spacious rooms with natural light",
+            sp7: "Surrounding area features numerous small parks, creating a balanced and harmonious living environment",
+            sp8: "",
+            sp9: "",
+            sp10: ""
+        },
+        {
+            id: 9,
+            name: "Titanium Estate",
+            image: TitaniumEstate,
+            location: "Glyfada, Athens, Greece",
+            desc: "Glyfada, known as the most affluent area in Athens, is home to intellectual elites, celebrities, and politicians of Greece. It symbolizes a luxurious lifestyle and offers immense investment potential.",
+            sp1: "Vibrant political center of Athens",
+            sp2: "With a sea view balconies, this project offers not only a premium living space, but also a serene and picturesque environment",
+            sp3: "Luxury shopping centers, and fine dining establishments",
+            sp4: "12 minutes from Glyfada Beach and Asteria Beach",
+            sp5: "Located beside the ELLINKON Mega Urban Complex, the largest resort project in EU",
+            sp6: "Glyfada Golf Club – One of Greece's largest and oldest golf courses, just 2 km away",
+            sp7: "Ocean view to Glyfada Marina, elegance with sophisticated spaces, luxury yachts with views of the Mediterranean",
+            sp8: "Apartments with ultra-wide balconies overlooking the Mediterranean Sea",
+            sp9: "Private garden apartments offering a premium living experience with luxurious interiors",
+            sp10: ""
+        },
+        {
+            id: 10,
+            name: "Elite Estate",
+            image: EliteEstate,
+            location: "Glyfada, Athens, Greece",
+            desc: "Glyfada, known as the most affluent area in Athens, is home to intellectual elites, celebrities, and politicians of Greece. It symbolizes a luxurious lifestyle and offers immense investment potential.",
+            sp1: "Vibrant political center of Athens",
+            sp2: "With a sea view balconies, this project offers not only a premium living space, but also a serene and picturesque environment",
+            sp3: "Luxury shopping centers, and fine dining establishments",
+            sp4: "12 minutes from Glyfada Beach and Asteria Beach",
+            sp5: "Located beside the ELLINKON Mega Urban Complex, the largest resort project in EU",
+            sp6: "Glyfada Golf Club – One of Greece's largest and oldest golf courses, just 2 km away",
+            sp7: "Ocean view to Glyfada Marina, elegance with sophisticated spaces, luxury yachts, with views of the Mediterranean",
+            sp8: "Apartments with ultra-wide balconies overlooking the Mediterranean Sea",
+            sp9: "",
+            sp10: ""
+        },
+        {
+            id: 11,
+            name: "Crown Palace",
+            image: CrownPalace,
+            location: "Nikea, Athens, Greece",
+            desc: "Life in Nikea is bustling, with lively streets and several thriving industrial areas. However, the area still maintains a sense of tranquility thanks to parks like Nikea Park, where residents can relax and enjoy the green spaces.",
+            sp1: "Offering amenities for both residents and visitors, the area features restaurants, pharmacies, cinemas, and shopping centers",
+            sp2: "Pharmacy 200 to 300 m",
+            sp3: "Schools 550 m to 1.8 km",
+            sp4: "Restaurants 40 m to 1.2 km",
+            sp5: "Coffee and bars within radius of 300 m, nearest 10 m",
+            sp6: "Metro radius within 280 m",
+            sp7: "Supermarkets in range of 270 m radius",
+            sp8: "Beaches within 4 km radius",
+            sp9: "Spacious room designs with natural sunlight",
+            sp10: "The shared garden area, with plenty of greenery, provides a perfect spot for relaxation and gatherings"
         }
     ]
 

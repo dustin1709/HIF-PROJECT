@@ -2,7 +2,7 @@ import ThePlatinum from '../assets/images/real-estates/ThePlatinum.jpg';
 import CrystalJade from '../assets/images/real-estates/CrystalJade.jpg';
 import Notara from '../assets/images/real-estates/Notara.jpg';
 import TheImperial from '../assets/images/real-estates/TheImperial.jpg';
-import CampusNest from '../assets/images/real-estates/CampusNest.jpg';
+import CampusNest from '../assets/images/real-estates/CAMPUSNEST.jpg';
 import GoldenUrban from '../assets/images/real-estates/GoldenUrban.png';
 import TitaniumEstate from '../assets/images/real-estates/TitaniumEstate.jpg';
 import EliteEstate from '../assets/images/real-estates/EliteEstate.png';

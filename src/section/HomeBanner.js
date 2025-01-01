@@ -8,7 +8,7 @@ import family from '../assets/images/family.png';
 import country from '../assets/images/country.png';
 import '../assets/sectioncss/HomeBanner.css';
 import useScrollTriggeredCountUp from "../hooks/useScrollTriggerCountUp";
-import CampusNest from '../assets/images/real-estates/CAMPUSNEST.jpg';
+import CampusNest from '../assets/images/real-estates/CampusNest.jpg';
 import BedRoom from '../assets/images/bedroom2-view1.jpg';
 import School from '../assets/images/school.jpg';
 import hif from '../assets/images/hif.png';

@@ -142,6 +142,28 @@ function About() {
                             </div>
                         </div>
 
+                        {/* ----- Left side ----- */}
+                        <div className='bg-white border-white border-4 w-20 absolute left-1/2 
+                        transform -translate-x-1/2 -translate-y-4 sm:translate-y-0 flex items-center justify-center'>
+                            <h1 className='p-2' style={{fontSize: '350%'}}>2024</h1>
+                        </div>
+                        <div className='mt-6 sm:mt-0 sm:mb-12 mt-12'>
+                            <div className="flex items-center flex-col sm:flex-row">
+
+                                <div className='flex justify-start w-full mx-auto items-center'>
+                                    <div className='w-full sm:w-1/2 sm:pr-12'>
+                                        <div data-aos='fade-right' data-aos-duration='1000' className='bg-white p-4 rounded
+                                        shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150'>
+                                            <p className='text-[23px] text-smallTextColor group-hover:font-[500]'>
+                                            In July 2024, establish official office in Istanbul, Turkey, in order to serve the Turkish market.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>

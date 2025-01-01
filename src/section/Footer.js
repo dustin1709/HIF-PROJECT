@@ -1,7 +1,7 @@
 import React from "react";
 import backgroundImg from '../assets/images/footerbkg.jpg';
 import { FaCopyright, FaMapPin } from "react-icons/fa";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Footer() {
     return (
@@ -15,20 +15,20 @@ function Footer() {
                     <h1 className='pl-10 pt-5 text-3xl'>Our Offices</h1>
                     <ul className='pl-10 pr-2 pb-3 text-2xl'>
                         <li className="pt-2 flex items-center"><FaMapPin /> Greece: ALIMOS, ATHENS, GREECE, 17455</li>
-                        <li className="pt-2 flex items-center"><FaMapPin /> Vietnam: LE VAN LUONG, THANH XUAN, HANOI, VIETNAM, 100000</li>
+                        <li className="pt-2 flex items-center"><FaMapPin /> Vietnam: HUD TOWER, LE VAN LUONG, THANH XUAN, HANOI, VIETNAM, 100000</li>
                         <li className="pt-2 flex items-center"><FaMapPin /> Turkey: ZZET PAŞA MAH. YENİ YOL CAD. NUROL TOWER NO: 3 İÇ KAPI NO: 157- Kat22, No 2204</li>
                     </ul>
                 </div>
                 <div className="shadow-on-text">
                     <h1 className="pl-10 pt-5 text-3xl">Quick Links</h1>
                     <ul className="pl-10 pt-1 pb-3 text-2xl">
-                        <li><NavLink to='/' activeClassname="active">Home</NavLink></li>
-                        <li><NavLink to='/about' activeClassname="active">About us</NavLink></li>
-                        <li><NavLink to='/realestate' activeClassname="active">Real Estate Development</NavLink></li>
-                        <li><NavLink to='/projects' activeClassname="active">Projects</NavLink></li>
-                        <li><NavLink to='/propertymanagement' activeClassname="active">Property Management</NavLink></li>
-                        <li><NavLink to='/education' activeClassname="active">Education Consulting</NavLink></li>
-                        <li><NavLink to='/goldenvisa' activeClassname="active">Golden Visa Immigration Program</NavLink></li>
+                        <li><NavLink to='/' activeClassname="active" style={{backgroundColor: "transparent"}}>Home</NavLink></li>
+                        <li><NavLink to='/about' activeClassname="active" style={{backgroundColor: "transparent"}}>About us</NavLink></li>
+                        <li><NavLink to='/realestate' activeClassname="active" style={{backgroundColor: "transparent"}}>Real Estate Development</NavLink></li>
+                        <li><NavLink to='/projects' activeClassname="active" style={{backgroundColor: "transparent"}}>Projects</NavLink></li>
+                        <li><NavLink to='/propertymanagement' activeClassname="active" style={{backgroundColor: "transparent"}}>Property Management</NavLink></li>
+                        <li><NavLink to='/education' activeClassname="active" style={{backgroundColor: "transparent"}}>Education Consulting</NavLink></li>
+                        <li><NavLink to='/goldenvisa' activeClassname="active" style={{backgroundColor: "transparent"}}>Golden Visa Immigration Program</NavLink></li>
                     </ul>
                     <div className='p-10 clear-both'></div>
                     <div className='p-10 clear-both'></div>

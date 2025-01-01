@@ -52,25 +52,25 @@ function Navbar() {
                 <div className="menu" ref={menuRef} onClick={toggleMenu}>
                     <ul className='flex gap-10 items-center'>
                         <li className='text-smallTextColor text-[22.7px] font-[200] hover:underline'>
-                            <NavLink style={{color: "#042954"}} to='/' activeClassname="active">Home</NavLink>
+                            <NavLink style={{color: "#042954", backgroundColor: "transparent"}} to='/' activeClassname="active">Home</NavLink>
                         </li>
                         <li className='text-smallTextColor text-[22.7px] font-[200] hover:underline'>
-                            <NavLink style={{color: "#042954"}} to='/about' activeClassname="active">About us</NavLink>
+                            <NavLink style={{color: "#042954", backgroundColor: "transparent"}} to='/about' activeClassname="active">About us</NavLink>
                         </li>
                         <li className='text-smallTextColor text-[22.7px] font-[200] hover:underline'>
-                            <NavLink style={{color: "#042954"}} to='/realestate' activeClassname="active">Real Estate Development</NavLink>
+                            <NavLink style={{color: "#042954", backgroundColor: "transparent"}} to='/realestate' activeClassname="active">Real Estate Development</NavLink>
                         </li>
                         <li className='text-smallTextColor text-[22.7px] font-[200] hover:underline'>
-                            <NavLink style={{color: "#042954"}} to='/projects' activeClassname="active">Projects</NavLink>
+                            <NavLink style={{color: "#042954", backgroundColor: "transparent"}} to='/projects' activeClassname="active">Projects</NavLink>
                         </li>
                         <li className='text-smallTextColor text-[22.7px] font-[200] hover:underline'>
-                            <NavLink style={{color: "#042954"}} to='/propertymanagement' activeClassname="active">Property Management</NavLink>
+                            <NavLink style={{color: "#042954", backgroundColor: "transparent"}} to='/propertymanagement' activeClassname="active">Property Management</NavLink>
                         </li>
                         <li className='text-smallTextColor text-[22.7px] font-[200] hover:underline'>
-                            <NavLink style={{color: "#042954"}} to='/education' activeClassname="active">Education Consulting</NavLink>
+                            <NavLink style={{color: "#042954", backgroundColor: "transparent"}} to='/education' activeClassname="active">Education Consulting</NavLink>
                         </li>
                         <li className='text-smallTextColor text-[22.7px] font-[200] hover:underline'>
-                            <NavLink style={{color: "#042954"}} to='/goldenvisa' activeClassname="active">Golden Visa Immigration</NavLink>
+                            <NavLink style={{color: "#042954", backgroundColor: "transparent"}} to='/goldenvisa' activeClassname="active">Golden Visa Immigration</NavLink>
                         </li>
                     </ul>
                 </div>

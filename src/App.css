@@ -10,6 +10,7 @@ body {
 
 .active {
   text-decoration: underline;
+  background: #FFFF;
 }
 
 .header {
